@@ -1,0 +1,20 @@
+[package]
+name = "event_visitor_test"
+version = "0.1.0"
+authors = ["stefusmaximus <stefusmaximus@github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.0.0", features = ["full"] }
+tokio-stream = "0.1.0"
+tokio-tungstenite = { version = "0.14.0", features = ["rustls-tls"] }
+anyhow = "1.0.40"
+url = "2.2.1"
+futures-util = "0.3"
+futures-channel = "0.3"
+futures = "0.3"
+regex = "1.5.4"
+#macros = { path = "../macros" }
+macros_derive = { path = "./macros_derive" }
